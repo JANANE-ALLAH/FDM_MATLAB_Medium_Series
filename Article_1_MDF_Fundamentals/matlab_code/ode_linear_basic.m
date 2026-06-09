@@ -8,7 +8,7 @@
 %
 %  Author : M. JANANE ALLAH (Medium Article 1, FDM Fundamentals)
 
-clc; clear; close all;
+clc; close all;
 
 %% Physical parameters
 L  = 1;          % domain length

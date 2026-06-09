@@ -8,7 +8,7 @@
 %
 %  Author : M. JANANE ALLAH (Medium Article 1, FDM Fundamentals)
 
-clc; clear; close all;
+clc; close all;
 
 %% Domain and exact reference
 x       = linspace(-2*pi, 2*pi, 1000);

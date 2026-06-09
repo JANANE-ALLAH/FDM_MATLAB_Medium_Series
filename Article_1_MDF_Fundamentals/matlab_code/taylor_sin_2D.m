@@ -7,7 +7,7 @@
 %
 %  Author : M. JANANE ALLAH (Medium Article 1, FDM Fundamentals)
 
-clc; clear; close all;
+clc; close all;
 
 %% 2D domain
 x = linspace(-2, 2, 200);

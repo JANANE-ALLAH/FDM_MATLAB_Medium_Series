@@ -7,7 +7,7 @@
 %
 %  Author : M. JANANE ALLAH (Medium Article 2, Nonlinear FDM)
 
-clc; clear; close all;
+clc; close all;
 
 %% Add this folder to the path
 this_dir = fileparts(mfilename('fullpath'));

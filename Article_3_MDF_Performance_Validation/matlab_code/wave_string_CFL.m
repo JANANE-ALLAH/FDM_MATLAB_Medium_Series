@@ -16,7 +16,7 @@
 %
 %  Author : M. JANANE ALLAH (Medium Article 3, Validation)
 
-clc; clear; close all;
+clc; close all;
 
 %% --- physical & numerical parameters ------------------------------------
 L      = 1.0;

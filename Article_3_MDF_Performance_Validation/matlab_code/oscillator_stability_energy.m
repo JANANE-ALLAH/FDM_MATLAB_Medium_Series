@@ -14,7 +14,7 @@
 %
 %  Author : M. JANANE ALLAH (Medium Article 3, Validation)
 
-clc; clear; close all;
+clc; close all;
 
 %% --- parameters (same as the production rapport) ------------------------
 omega   = 2*pi;     % natural pulsation        ~ 6.28 rad/s

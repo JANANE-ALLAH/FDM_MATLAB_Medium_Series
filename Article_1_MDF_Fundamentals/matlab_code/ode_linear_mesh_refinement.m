@@ -11,7 +11,7 @@
 %
 %  Author : M. JANANE ALLAH (Medium Article 1, FDM Fundamentals)
 
-clc; clear; close all;
+clc; close all;
 
 L        = 1;
 N_values = [5, 10, 20, 40, 80];

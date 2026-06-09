@@ -9,7 +9,7 @@
 %
 %  Author : M. JANANE ALLAH (Medium Article 3, Validation)
 
-clc; clear; close all;
+clc; close all;
 
 %% --- single-grid solve at N = 100 ----------------------------------------
 N = 100;
@@ -24,7 +24,7 @@ f       = -2*pi^2 * sin(pi*X) .* sin(pi*Y);
 % Sparse Laplacian on the interior n x n grid
 n = N - 2;
 e = ones(n,1);
-T = spdiags([e -4*e e], [-1 0 1], n, n);
+T = spdiags([e -2*e e], [-1 0 1], n, n);
 I = speye(n);
 A = (kron(I,T) + kron(T,I)) / h^2;
 
@@ -60,7 +60,7 @@ for k = 1:numel(N_list)
     uxk = sin(pi*Xk) .* sin(pi*Yk);
     nk  = Nk - 2;
     ek  = ones(nk,1);
-    Tk  = spdiags([ek -4*ek ek], [-1 0 1], nk, nk);
+    Tk  = spdiags([ek -2*ek ek], [-1 0 1], nk, nk);
     Ik  = speye(nk);
     Ak  = (kron(Ik,Tk) + kron(Tk,Ik)) / hk^2;
     Fk  = fk(2:Nk-1, 2:Nk-1);
