@@ -11,14 +11,14 @@ addpath(fullfile(this_dir, '..', 'matlab_code'));
 out_dir = this_dir;
 if ~exist(out_dir, 'dir'); mkdir(out_dir); end
 
-%% Test case A — Poisson 2D (convergence)
+%% Test case A -- Poisson 2D (convergence)
 close all;
 run(fullfile(this_dir, '..', 'matlab_code', '01_poisson_dirichlet_sparse.m'));
 figs = sort(findall(0, 'Type', 'figure'));
 print(figs(end), fullfile(out_dir, 'fig1_poisson_convergence.png'), '-dpng', '-r150');
 print(figs(1),   fullfile(out_dir, 'fig2_poisson_solution_error.png'), '-dpng', '-r150');
 
-%% Test case B — vibrating string + CFL stress test
+%% Test case B -- vibrating string + CFL stress test
 close all;
 run(fullfile(this_dir, '..', 'matlab_code', '02_wave_string_CFL.m'));
 figs = sort(findall(0, 'Type', 'figure'));
@@ -26,7 +26,7 @@ print(figs(1), fullfile(out_dir, 'fig3_wave_snapshot.png'), '-dpng', '-r150');
 print(figs(2), fullfile(out_dir, 'fig4_wave_energy.png'),  '-dpng', '-r150');
 print(figs(3), fullfile(out_dir, 'fig5_wave_cfl_stress.png'), '-dpng', '-r150');
 
-%% Test case C — forced oscillator
+%% Test case C -- forced oscillator
 close all;
 run(fullfile(this_dir, '..', 'matlab_code', '03_oscillator_stability_energy.m'));
 figs = sort(findall(0, 'Type', 'figure'));

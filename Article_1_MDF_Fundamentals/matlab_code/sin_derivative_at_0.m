@@ -6,7 +6,7 @@ function d = sin_derivative_at_0(n)
 %   sin, cos, -sin, -cos and all even derivatives vanish at 0.
 %
 %   Used as a coefficient helper for the bivariate Taylor expansion of
-%   sin(x)*sin(y) — see Taylor2D_sin.m.
+%   sin(x)*sin(y) -- see Taylor2D_sin.m.
 %
 %   Author : M. JANANE ALLAH (Medium Article 1, FDM Fundamentals).
 

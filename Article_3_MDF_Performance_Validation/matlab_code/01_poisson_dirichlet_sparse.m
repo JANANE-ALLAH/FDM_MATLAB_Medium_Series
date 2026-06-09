@@ -91,5 +91,5 @@ hold on; grid on; box on;
 loglog(h_list, 5*h_list.^2, 'r--', 'LineWidth', 1.5, ...
        'DisplayName', 'Reference O(h^2)');
 xlabel('h'); ylabel('Max error');
-title('Poisson 2D Dirichlet — observed O(h^2) convergence');
+title('Poisson 2D Dirichlet -- observed O(h^2) convergence');
 legend('Location', 'NorthWest');

@@ -41,7 +41,7 @@ x_ref = linspace(0, L, 300);
 plot(x_ref, exp(x_ref), 'k', 'LineWidth', 2.2, 'DisplayName', 'Exact: e^x');
 
 xlabel('x'); ylabel('u(x)');
-title('Explicit Euler — influence of the mesh size h = L/(N-1)');
+title('Explicit Euler -- influence of the mesh size h = L/(N-1)');
 legend('Location', 'NorthWest');
 
 %% Convergence printout
