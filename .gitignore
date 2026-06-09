@@ -1,0 +1,25 @@
+# MATLAB artefacts
+*.asv
+*.mat
+*.mex*
+
+# Generated figures (regenerate via figures/*_run_all_figures.m)
+*.png
+*.jpg
+*.pdf
+!figures/*_run_all_figures.m
+
+# Auto-generated validation reports (Article 3)
+oscillator_validation.mat
+oscillator_validation.txt
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*~
