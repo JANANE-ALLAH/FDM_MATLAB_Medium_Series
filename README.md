@@ -9,11 +9,11 @@ A three-part series turning a research-grade MATLAB code base on the Finite Diff
 
 ## Series at a glance
 
-| # | Title | Reading time | Level |
-|---|---|---|---|
-| 1 | From Taylor Series to Finite Differences: A Hands-On MATLAB Introduction to the FDM | 12–15 min | Beginner |
-| 2 | Solving Nonlinear ODEs in MATLAB: 6 FDM Schemes Compared on a Riccati-Like Equation | 15–18 min | Advanced |
-| 3 | Numerical Analysis Done Right: Convergence, Stability and Validation of FDM Solvers in MATLAB | 18–22 min | Expert |
+| # | Title | Reading time | Level | Published on Medium |
+|---|---|---|---|---|
+| 1 | From Taylor Series to Finite Differences: A Hands-On MATLAB Introduction to the FDM | 12–15 min | Beginner | [Read on Medium](https://medium.com/@M.janane_allah/from-taylor-series-to-finite-differences-a-hands-on-matlab-introduction-to-the-fdm-c6fe404e80f7) |
+| 2 | Solving Nonlinear ODEs in MATLAB: 6 FDM Schemes Compared on a Riccati-Like Equation | 15–18 min | Advanced | *(coming soon)* |
+| 3 | Numerical Analysis Done Right: Convergence, Stability and Validation of FDM Solvers in MATLAB | 18–22 min | Expert | *(coming soon)* |
 
 ---
 
